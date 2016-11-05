@@ -1,0 +1,14 @@
+RxJava
+
+RxJava is an API library for asynchronous programming base on events using the Observer pattern, also it calls reactive programming because the consumer reacts to the data as it comes in.
+
+So first what is Observer Pattern?
+This is a pattern of development in which your class or primary object (known as the Observable) notifies other interested classes or objects (known as Observers) with relevant information (events).
+
+So with this type of  programming you are able to create data streams of anything, like click events or in this case when you touch an element from the user interface and you want to get notified in more than one object, or when you get some data from the web using a thread and you want to update the user interface, or maybe you are connected to a DB and you want to reflect the changes in the view elements.  
+
+References:
+	http://fragmentedpodcast.com/episodes/3/
+	http://reactivex.io/
+	http://www.vogella.com/tutorials/RxJava/article.html
+	https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
