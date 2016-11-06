@@ -1,0 +1,14 @@
+Event Buses
+	This type of software architecture is very useful for communicate Android components like Activities, Fragments, Services very easily, but also as always if you abuse of this technology an use event buses for everything  you can get confuse in where are you firing off the events.
+
+	Using this technology you can subscribe your Java objects or Android components like Activities, Fragments Services, that are also Java objects, to events that can be fire off in your application in different layers and make more flexible your application, so long story short, you can decouple the components of your application making it more flexible.
+
+	There are some third party libraries that you can use for implement event buses like Otto (that now it’s deprecated) , Green Robot and RxJava.
+
+	Which’s the best?
+		The best will be always the one that for you is easy to understand, implement and it works, letting you continue implementing the other business logic of your project.
+
+
+
+
+
